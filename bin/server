@@ -1,0 +1,21 @@
+#!/usr/bin/env ./node_modules/.bin/babel-node
+
+import app from "../app/index";
+import config from "../config/main";
+import { Server } from "socket.io";
+import { SCListener } from "../app/services/SCListener";
+
+// const CronJob = require("cron").CronJob;
+const dotenv = require("dotenv");
+dotenv.config();
+
+let server = app().listen(config.port);
+
+const io = new Server(server);
+global.io = io; // using a global handle on io
+// init listener
+SCListener();
+
+console.log("Your server is running on port", config.port);
+
+export default server;

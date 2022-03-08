@@ -1,0 +1,15 @@
+export const NFTDEX_CONTRACT = "nftdexnftdex";
+export const SIMPLEASSET_CONTRACT = "simpleassets";
+export const CANCELOFFER_SA_ACTION = "canceloffer";
+export const OFFER_SA_TABBLE = "offers";
+export const GETPOTTRADES_ACTION = "getpottrades";
+export const TOKEN_SYMBOL = "WAX";
+export const OFFER_TABBLE = "offers";
+export const SASSETS_TABLE = "sassets";
+export const SEQMGR_TABLE = "seqmgr";
+export const TRADEBUILD_ACTION = "tradebuild";
+export const TRADELOG_ACTION = "tradelog";
+export const OFFERSDELEXP_ACTION = "offersdelexp";
+export const OFFERSDELALL_ACTION = "offersdelall";
+export const SASSETRM_ACTION = "sassetrm";
+export const DAPPSERVICES_PERMISSION = "dappservices";
