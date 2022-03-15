@@ -4,7 +4,7 @@ import bodyParser from "body-parser";
 import lusca from "lusca";
 import flash from "express-flash";
 import path from "path";
-import cors from "cors";
+import cors from "cors"; // cors requeste
 
 const dotenv = require("dotenv");
 dotenv.config();
